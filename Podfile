@@ -8,6 +8,9 @@ target 'CodeUp' do
   pod 'SwiftyJSON'
   pod 'Kingfisher', '~> 3.0'
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'GoogleSignIn'
   # Pods for CodeUp
 
   target 'CodeUpTests' do

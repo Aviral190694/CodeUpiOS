@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		59989AA552E1DB7CCEC7A85C /* Pods_CodeUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D7A038B2DBAA077A23CFA8 /* Pods_CodeUpTests.framework */; };
 		5B58ABC4D6C711D383B37A94 /* Pods_CodeUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F920A2709C2BF6692158F1 /* Pods_CodeUp.framework */; };
+		E01B9F421EFA86ED007F4133 /* ic_intro_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B9F411EFA86ED007F4133 /* ic_intro_logo.png */; };
 		E09F50F61EFA6CCB00277495 /* TextUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50EF1EFA6CCB00277495 /* TextUtilities.swift */; };
 		E09F50F71EFA6CCB00277495 /* MarkdownTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50F01EFA6CCB00277495 /* MarkdownTextView.swift */; };
 		E09F50F81EFA6CCB00277495 /* MarkdownTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50F21EFA6CCB00277495 /* MarkdownTextStorage.swift */; };
@@ -60,6 +61,7 @@
 		9FC91D815C87CC04888502E2 /* Pods-CodeUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeUpUITests/Pods-CodeUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3FAADB9279F5310651411E0 /* Pods_CodeUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2160284049D5027D6D5BFC /* Pods-CodeUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeUp/Pods-CodeUp.debug.xcconfig"; sourceTree = "<group>"; };
+		E01B9F411EFA86ED007F4133 /* ic_intro_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_intro_logo.png; sourceTree = "<group>"; };
 		E09F50EF1EFA6CCB00277495 /* TextUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextUtilities.swift; sourceTree = "<group>"; };
 		E09F50F01EFA6CCB00277495 /* MarkdownTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownTextView.swift; sourceTree = "<group>"; };
 		E09F50F11EFA6CCB00277495 /* MarkdownTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownTextView.h; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				E09F510D1EFA6FE200277495 /* CodeEditorViewController.swift */,
 				E0CA4B801EFA4DF400A45E7C /* Assets.xcassets */,
 				E0CA4B821EFA4DF400A45E7C /* LaunchScreen.storyboard */,
+				E01B9F411EFA86ED007F4133 /* ic_intro_logo.png */,
 				E0CA4B851EFA4DF400A45E7C /* Info.plist */,
 				E0F6310F1EFA52A500EDA9AD /* GoogleService-Info.plist */,
 			);
@@ -341,6 +344,7 @@
 			files = (
 				E0CA4B841EFA4DF400A45E7C /* LaunchScreen.storyboard in Resources */,
 				E0F631101EFA52A500EDA9AD /* GoogleService-Info.plist in Resources */,
+				E01B9F421EFA86ED007F4133 /* ic_intro_logo.png in Resources */,
 				E0CA4B811EFA4DF400A45E7C /* Assets.xcassets in Resources */,
 				E0CA4B7F1EFA4DF400A45E7C /* Main.storyboard in Resources */,
 			);
