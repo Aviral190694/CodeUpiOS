@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		59989AA552E1DB7CCEC7A85C /* Pods_CodeUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D7A038B2DBAA077A23CFA8 /* Pods_CodeUpTests.framework */; };
 		5B58ABC4D6C711D383B37A94 /* Pods_CodeUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F920A2709C2BF6692158F1 /* Pods_CodeUp.framework */; };
+		E09F50F61EFA6CCB00277495 /* TextUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50EF1EFA6CCB00277495 /* TextUtilities.swift */; };
+		E09F50F71EFA6CCB00277495 /* MarkdownTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50F01EFA6CCB00277495 /* MarkdownTextView.swift */; };
+		E09F50F81EFA6CCB00277495 /* MarkdownTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50F21EFA6CCB00277495 /* MarkdownTextStorage.swift */; };
+		E09F50F91EFA6CCB00277495 /* MarkdownAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50F31EFA6CCB00277495 /* MarkdownAttributes.swift */; };
+		E09F50FA1EFA6CCB00277495 /* HighlighterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50F41EFA6CCB00277495 /* HighlighterType.swift */; };
+		E09F50FB1EFA6CCB00277495 /* HighlighterTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50F51EFA6CCB00277495 /* HighlighterTextStorage.swift */; };
+		E09F51041EFA6CDA00277495 /* RegularExpressionHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50FC1EFA6CDA00277495 /* RegularExpressionHighlighter.swift */; };
+		E09F51051EFA6CDA00277495 /* MarkdownSuperscriptHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50FD1EFA6CDA00277495 /* MarkdownSuperscriptHighlighter.swift */; };
+		E09F51061EFA6CDA00277495 /* MarkdownStrikethroughHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50FE1EFA6CDA00277495 /* MarkdownStrikethroughHighlighter.swift */; };
+		E09F51071EFA6CDA00277495 /* MarkdownListHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F50FF1EFA6CDA00277495 /* MarkdownListHighlighter.swift */; };
+		E09F51081EFA6CDA00277495 /* MarkdownLinkHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F51001EFA6CDA00277495 /* MarkdownLinkHighlighter.swift */; };
+		E09F51091EFA6CDA00277495 /* MarkdownHeaderHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F51011EFA6CDA00277495 /* MarkdownHeaderHighlighter.swift */; };
+		E09F510A1EFA6CDA00277495 /* MarkdownFencedCodeHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F51021EFA6CDA00277495 /* MarkdownFencedCodeHighlighter.swift */; };
+		E09F510B1EFA6CDA00277495 /* LinkHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F51031EFA6CDA00277495 /* LinkHighlighter.swift */; };
+		E09F510E1EFA6FE200277495 /* CodeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F510D1EFA6FE200277495 /* CodeEditorViewController.swift */; };
 		E0CA4B7A1EFA4DF400A45E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CA4B791EFA4DF400A45E7C /* AppDelegate.swift */; };
 		E0CA4B7C1EFA4DF400A45E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CA4B7B1EFA4DF400A45E7C /* ViewController.swift */; };
 		E0CA4B7F1EFA4DF400A45E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CA4B7D1EFA4DF400A45E7C /* Main.storyboard */; };
@@ -45,6 +60,22 @@
 		9FC91D815C87CC04888502E2 /* Pods-CodeUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeUpUITests/Pods-CodeUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3FAADB9279F5310651411E0 /* Pods_CodeUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2160284049D5027D6D5BFC /* Pods-CodeUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeUp/Pods-CodeUp.debug.xcconfig"; sourceTree = "<group>"; };
+		E09F50EF1EFA6CCB00277495 /* TextUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextUtilities.swift; sourceTree = "<group>"; };
+		E09F50F01EFA6CCB00277495 /* MarkdownTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownTextView.swift; sourceTree = "<group>"; };
+		E09F50F11EFA6CCB00277495 /* MarkdownTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownTextView.h; sourceTree = "<group>"; };
+		E09F50F21EFA6CCB00277495 /* MarkdownTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownTextStorage.swift; sourceTree = "<group>"; };
+		E09F50F31EFA6CCB00277495 /* MarkdownAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownAttributes.swift; sourceTree = "<group>"; };
+		E09F50F41EFA6CCB00277495 /* HighlighterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlighterType.swift; sourceTree = "<group>"; };
+		E09F50F51EFA6CCB00277495 /* HighlighterTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlighterTextStorage.swift; sourceTree = "<group>"; };
+		E09F50FC1EFA6CDA00277495 /* RegularExpressionHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularExpressionHighlighter.swift; sourceTree = "<group>"; };
+		E09F50FD1EFA6CDA00277495 /* MarkdownSuperscriptHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownSuperscriptHighlighter.swift; sourceTree = "<group>"; };
+		E09F50FE1EFA6CDA00277495 /* MarkdownStrikethroughHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownStrikethroughHighlighter.swift; sourceTree = "<group>"; };
+		E09F50FF1EFA6CDA00277495 /* MarkdownListHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownListHighlighter.swift; sourceTree = "<group>"; };
+		E09F51001EFA6CDA00277495 /* MarkdownLinkHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownLinkHighlighter.swift; sourceTree = "<group>"; };
+		E09F51011EFA6CDA00277495 /* MarkdownHeaderHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownHeaderHighlighter.swift; sourceTree = "<group>"; };
+		E09F51021EFA6CDA00277495 /* MarkdownFencedCodeHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownFencedCodeHighlighter.swift; sourceTree = "<group>"; };
+		E09F51031EFA6CDA00277495 /* LinkHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkHighlighter.swift; sourceTree = "<group>"; };
+		E09F510D1EFA6FE200277495 /* CodeEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeEditorViewController.swift; sourceTree = "<group>"; };
 		E0CA4B761EFA4DF400A45E7C /* CodeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CA4B791EFA4DF400A45E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0CA4B7B1EFA4DF400A45E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +145,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E09F510C1EFA6F1F00277495 /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E09F50FC1EFA6CDA00277495 /* RegularExpressionHighlighter.swift */,
+				E09F50FD1EFA6CDA00277495 /* MarkdownSuperscriptHighlighter.swift */,
+				E09F50FE1EFA6CDA00277495 /* MarkdownStrikethroughHighlighter.swift */,
+				E09F50FF1EFA6CDA00277495 /* MarkdownListHighlighter.swift */,
+				E09F51001EFA6CDA00277495 /* MarkdownLinkHighlighter.swift */,
+				E09F51011EFA6CDA00277495 /* MarkdownHeaderHighlighter.swift */,
+				E09F51021EFA6CDA00277495 /* MarkdownFencedCodeHighlighter.swift */,
+				E09F51031EFA6CDA00277495 /* LinkHighlighter.swift */,
+				E09F50EF1EFA6CCB00277495 /* TextUtilities.swift */,
+				E09F50F01EFA6CCB00277495 /* MarkdownTextView.swift */,
+				E09F50F11EFA6CCB00277495 /* MarkdownTextView.h */,
+				E09F50F21EFA6CCB00277495 /* MarkdownTextStorage.swift */,
+				E09F50F31EFA6CCB00277495 /* MarkdownAttributes.swift */,
+				E09F50F41EFA6CCB00277495 /* HighlighterType.swift */,
+				E09F50F51EFA6CCB00277495 /* HighlighterTextStorage.swift */,
+			);
+			name = TextEditor;
+			sourceTree = "<group>";
+		};
 		E0CA4B6D1EFA4DF400A45E7C = {
 			isa = PBXGroup;
 			children = (
@@ -139,9 +192,11 @@
 		E0CA4B781EFA4DF400A45E7C /* CodeUp */ = {
 			isa = PBXGroup;
 			children = (
+				E09F510C1EFA6F1F00277495 /* TextEditor */,
 				E0CA4B791EFA4DF400A45E7C /* AppDelegate.swift */,
 				E0CA4B7B1EFA4DF400A45E7C /* ViewController.swift */,
 				E0CA4B7D1EFA4DF400A45E7C /* Main.storyboard */,
+				E09F510D1EFA6FE200277495 /* CodeEditorViewController.swift */,
 				E0CA4B801EFA4DF400A45E7C /* Assets.xcassets */,
 				E0CA4B821EFA4DF400A45E7C /* LaunchScreen.storyboard */,
 				E0CA4B851EFA4DF400A45E7C /* Info.plist */,
@@ -450,8 +505,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09F50FB1EFA6CCB00277495 /* HighlighterTextStorage.swift in Sources */,
+				E09F50F71EFA6CCB00277495 /* MarkdownTextView.swift in Sources */,
+				E09F50F61EFA6CCB00277495 /* TextUtilities.swift in Sources */,
+				E09F51061EFA6CDA00277495 /* MarkdownStrikethroughHighlighter.swift in Sources */,
 				E0CA4B7C1EFA4DF400A45E7C /* ViewController.swift in Sources */,
+				E09F510E1EFA6FE200277495 /* CodeEditorViewController.swift in Sources */,
 				E0CA4B7A1EFA4DF400A45E7C /* AppDelegate.swift in Sources */,
+				E09F50F81EFA6CCB00277495 /* MarkdownTextStorage.swift in Sources */,
+				E09F51081EFA6CDA00277495 /* MarkdownLinkHighlighter.swift in Sources */,
+				E09F50FA1EFA6CCB00277495 /* HighlighterType.swift in Sources */,
+				E09F51091EFA6CDA00277495 /* MarkdownHeaderHighlighter.swift in Sources */,
+				E09F51041EFA6CDA00277495 /* RegularExpressionHighlighter.swift in Sources */,
+				E09F50F91EFA6CCB00277495 /* MarkdownAttributes.swift in Sources */,
+				E09F510A1EFA6CDA00277495 /* MarkdownFencedCodeHighlighter.swift in Sources */,
+				E09F510B1EFA6CDA00277495 /* LinkHighlighter.swift in Sources */,
+				E09F51071EFA6CDA00277495 /* MarkdownListHighlighter.swift in Sources */,
+				E09F51051EFA6CDA00277495 /* MarkdownSuperscriptHighlighter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
