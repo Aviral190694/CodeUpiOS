@@ -1,0 +1,6 @@
+framework module Pods_CodeUpTests {
+  umbrella header "Pods-CodeUpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
